@@ -88,7 +88,7 @@ with st.sidebar:
     st.header("📊 Navigation")
     page = st.radio(
         "Select Page",
-        ["🏠 Home", "📈 Model Performance", "� Test Data Upload", "�🔮 Make Predictions", "📊 Data Exploration", "ℹ️ About"]
+        ["🏠 Home", "📈 Model Performance", "📤 Test Data Upload", "🔮 Make Predictions", "📊 Data Exploration", "ℹ️ About"]
     )
     
     st.markdown("---")
